@@ -1,0 +1,54 @@
+/*                                                       UGLY BY DESIGN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DotGothic16', sans-serif;
+    background: url("../img/bg-matrix.gif");
+    color: white;
+}
+
+/* Utilities */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* MAIN */
+
+.container {
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    justify-content: space-between;
+    height: 35%;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid #00ff41;
+}
+
+#display_password {
+    color: red;
+    background-color: cyan;
+}
+
+.award {
+    margin-top: 50px;
+}
+
+.award img {
+    height: 50px;
+}
